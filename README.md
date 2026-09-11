@@ -26,10 +26,10 @@ There are none. It's very opinionated!
 
 ## Setup
 
-This directory is a working local package; it has not been published to npm. From your consuming project:
+Install [eslint-plugin-opinionated-imports](https://www.npmjs.com/package/eslint-plugin-opinionated-imports) from npm alongside ESLint:
 
 ```sh
-npm install --save-dev eslint /path/to/eslint-opinionated-imports
+npm install --save-dev eslint eslint-plugin-opinionated-imports
 ```
 
 In `eslint.config.mjs`:
@@ -51,7 +51,13 @@ export default [{
 }];
 ```
 
-For TypeScript, install `@typescript-eslint/parser` and configure it for your TypeScript files:
+For TypeScript, also install the parser:
+
+```sh
+npm install --save-dev @typescript-eslint/parser
+```
+
+Then configure it for your TypeScript files:
 
 ```js
 import tsParser from '@typescript-eslint/parser';

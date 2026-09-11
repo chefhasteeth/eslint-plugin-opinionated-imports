@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-opinionated-imports",
   "version": "0.1.0",
-  "description": "Sort imports by declaration kind and identifier case.",
+  "description": "Sort imports by declaration kind, identifier case, and symbol name.",
   "main": "index.js",
   "exports": {
     ".": "./index.js"
@@ -33,5 +33,19 @@
     "imports",
     "sort",
     "typescript"
-  ]
+  ],
+  "license": "MIT",
+  "author": "Samuel Bedwell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chefhasteeth/eslint-plugin-opinionated-imports.git"
+  },
+  "homepage": "https://github.com/chefhasteeth/eslint-plugin-opinionated-imports#readme",
+  "bugs": {
+    "url": "https://github.com/chefhasteeth/eslint-plugin-opinionated-imports/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
